@@ -4,3 +4,18 @@
     padding: 0;
     background-color: black;
 }
+
+.main{
+    background-image: url(netflixbg.jpg);
+    height: 80vh;
+    position: relative;
+}
+.box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+
+}
