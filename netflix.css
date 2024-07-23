@@ -1,29 +1,27 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    background-color:white;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.main{
-    background-image: url(netflixbg.jpg);
-    height: 80vh;
-    position: relative;
+.bg {
+  background-image: url(netflixbg.jpg);
+  height: 80vh;
+  position: relative;
+  background-size:  max(1500px ,100vw);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-.box{
-    height: 80vh;
-    width: 100%;
-    opacity: 0.5;
-    background-color: black;
-    position: absolute;
-    top: 0%;
-
+.box {
+  height: 80vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
 }
-nav{
+ nav{
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-nav img{
-     color: red;
-}
+    justify-content:space-between;
+    max-width: 80vw;
+    margin: auto;
+  }
